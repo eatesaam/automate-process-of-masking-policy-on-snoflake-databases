@@ -50,14 +50,3 @@ This Python script automates the creation and application of dynamic data maskin
    python snowflake_data_masking.py
    ```
 
-**Disclaimer:**
-
-- This script is provided as-is for educational purposes. Test thoroughly in a non-production environment before deploying.
-- Consider security best practices for storing credentials (e.g., using environment variables or a secure configuration management system).
-- The predefined list of PII column names might not be exhaustive. Adapt it to your specific data and regulatory requirements.
-
-**Additional Notes:**
-
-- The script currently logs output to the console. You can modify it to write to a log file or integrate with a logging framework for better tracking.
-- Error handling can be improved to catch potential issues during connection, querying, or policy creation/application.
-- Consider unit testing the script's functionalities to ensure its correctness and reliability.
